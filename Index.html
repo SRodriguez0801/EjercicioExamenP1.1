@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.4/dist/sweetalert2.min.css">
+    <title>StevenRodriguez</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mb-4">Calcular descuentos en productos</h1>
+        <form id="descuentoForm">
+            <div class="mb-3">
+                <label for="producto1" class="form-label">Producto 1</label>
+                <input type="number" class="form-control" id="producto1" >
+            </div>
+            <div class="mb-3">
+                <label for="producto2" class="form-label">Producto 2</label>
+                <input type="number" class="form-control" id="producto2" >
+            </div>
+            <div class="mb-3">
+                <label for="producto3" class="form-label">Producto 3</label>
+                <input type="number" class="form-control" id="producto3" >
+            </div>
+            <div class="mb-3">
+                <label for="producto4" class="form-label">Producto 4</label>
+                <input type="number" class="form-control" id="producto4" >
+            </div>
+            <div class="mb-3">
+                <label for="producto5" class="form-label">Producto 5</label>
+                <input type="number" class="form-control" id="producto5" >
+            </div>
+            <div class="mb-3">
+                <label for="subtotal" class="form-label">Subtotal</label>
+                <input type="text" class="form-control" id="subtotal" readonly>
+            </div>
+            <div class="mb-3">
+                <label for="descuento" id="descuentoLabel" class="form-label">Descuento 0%</label>
+                <input type="text" class="form-control" id="descuento" readonly>
+            </div>
+            <div class="mb-3">
+                <label for="total" class="form-label">Total a Pagar</label>
+                <input type="text" class="form-control" id="total" readonly>
+            </div>
+            <button type="button"  class="btn btn-outline-primary" onclick="calcular()">Calcular</button>
+            <button type="button" class="btn btn-outline-warning" onclick="limpiar()">Limpiar</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.4/dist/sweetalert2.all.min.js"></script>
+<script src="/js/Index.js"></script>
+
+</body>
+</html>
