@@ -48,3 +48,4 @@ function limpiar() {
     document.getElementById('total').value = '';
     document.getElementById('descuentoLabel').innerText = 'Descuento 0%';
 }
+//t32321092_StevenRodriguez
